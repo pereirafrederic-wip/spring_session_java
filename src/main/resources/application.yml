@@ -16,9 +16,12 @@ spring:
           use_jdbc_metadata_defaults: false
     database-platform: org.hibernate.dialect.PostgreSQL9Dialect
   session:
-    store-type: jdbc  
+    store-type: jdbc
+    timeout:
+      seconds: 900  
     jdbc:
       initialize-schema: always
   flyway:
+    schemas: spring_session
     baseline-on-migrate: true
 base64JWTSecretkey: springsession
