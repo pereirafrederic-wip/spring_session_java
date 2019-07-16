@@ -1,4 +1,4 @@
-package com.pereira.frederic.application.ssession;
+package com.pereira.frederic.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

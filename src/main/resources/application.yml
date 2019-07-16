@@ -18,7 +18,7 @@ spring:
   session:
     store-type: jdbc
     timeout:
-      seconds: 900  
+      seconds: 50000  
     jdbc:
       initialize-schema: always
   flyway:
